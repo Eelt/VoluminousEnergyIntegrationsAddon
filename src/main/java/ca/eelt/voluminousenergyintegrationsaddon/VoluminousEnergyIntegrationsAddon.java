@@ -1,18 +1,18 @@
-package ca.eelt.voluminousenergycompatibility;
+package ca.eelt.voluminousenergyintegrationsaddon;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import org.slf4j.Logger;
 
-@Mod("voluminousenergycompatibility")
-public class VoluminousEnergyCompatibility {
+@Mod("voluminousenergyintegrationsaddon")
+public class VoluminousEnergyIntegrationsAddon {
 
 
     // Directly reference a slf4j logger
     protected static final Logger LOGGER = LogUtils.getLogger();
 
-    public VoluminousEnergyCompatibility() {
+    public VoluminousEnergyIntegrationsAddon() {
         // Register the setup method for modloading
         //FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading
