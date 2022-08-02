@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "voluminousenergy:crushing",
+  "ingredient": {
+    "tag": "forge:ores/silver",
+    "count": 1
+  },
+  "process_time": 200,
+  "result": {
+    "item": "voluminousenergy:silver_dust",
+    "count": 1
+  },
+  "rng": {
+    "item": "voluminousenergy:galena_dust",
+    "count": 1,
+    "chance": 0.33
+  }
+}
